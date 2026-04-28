@@ -180,6 +180,8 @@ nav .B {
 }
 .nav{
 margin-right: 400px;
+    display: flex;
+flex-wrap: nowrap;
 }
 
 
