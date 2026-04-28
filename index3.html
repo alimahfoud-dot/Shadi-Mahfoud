@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo about my designs</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        
+        @media (max-width: 600px) {
+            .gallery img {
+                height: 220px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1> Part Of My Designs</h1>
+
+    <div class="gallery">
+        <img src="./IMG-20260329-WA0071.jpg" alt="صورة 1">
+        <img src="./IMG-20260329-WA0073.jpg" alt="صورة 2">
+        <img src="./IMG-20260329-WA0074_1.jpg" alt="صورة 3">
+        <img src="./IMG-20260329-WA0076.jpg" alt="صورة 4">
+        <img src="./IMG-20260329-WA0077.jpg" alt="صورة 5">
+        <img src="./IMG-20260329-WA0082.jpg" alt="صورة 6">
+        <img src="./IMG-20260329-WA0085.jpg" alt="صورة 7">
+        <img src="./IMG-20260329-WA0088.jpg" alt="صورة 8">
+        <img src="./IMG-20260329-WA0089.jpg" alt="صورة 9">
+        <img src="./IMG-20260329-WA0097.jpg" alt="صورة 10">
+        <img src="./IMG-20260329-WA0090.jpg" alt="صورة 11">
+        <img src="./IMG-20260329-WA0092.jpg" alt="صورة 12">
+        <img src="./IMG-20260329-WA0096.jpg" alt="صورة 13">
+        <img src="./IMG-20260329-WA0065.jpg" alt="صورة 14">
+        <img src="./IMG_20241008_115506.jpg" alt="صورة 15">
+        <img src="./IMG_20241008_115459.jpg" alt="صورة 16">
+        <img src="./IMG_20241005_173315.jpg" alt="صورة 17">
+        <img src="./IMG_20241005_173302.jpg" alt="صورة 18">
+        <img src="./IMG_20241005_173219.jpg" alt="صورة 19">
+        <img src="./IMG_20241005_173049.jpg" alt="صورة 20">
+        <img src="./IMG_20240930_151243.jpg" alt="صورة 21">
+      
+    </div>
+
+</body>
+</html>
