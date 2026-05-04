@@ -817,7 +817,7 @@ tr {
 @media (min-width: 1024px) and (max-width: 1441px) {
 
   .nav {
-    margin-right:600px;
+    margin-right:400px;
     display: flex;
     flex-wrap: nowrap; /* يمنع نزول الأزرار */
     justify-content: center;
@@ -825,8 +825,8 @@ tr {
   }
 
   nav .B {
-    font-size: 14px;
-    padding:10px;
+    font-size: 12px;
+    padding:8px;
        flex-wrap: nowrap;
   }
 
